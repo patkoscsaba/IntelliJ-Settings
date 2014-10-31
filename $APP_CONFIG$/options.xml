@@ -17,14 +17,18 @@
     <property name="Non-Project Files" value="Yellow" />
     <property name="Tests" value="Green" />
     <property name="revuTableFilter" value="" />
-    <property name="sm_test_statistics_table_columnsWidth0" value="75" />
+    <property name="sm_test_statistics_table_columnsWidth0" value="117" />
     <property name="sm_test_statistics_table_columnsOrder0" value="0" />
-    <property name="sm_test_statistics_table_columnsWidth1" value="75" />
+    <property name="sm_test_statistics_table_columnsWidth1" value="117" />
     <property name="sm_test_statistics_table_columnsOrder1" value="1" />
-    <property name="sm_test_statistics_table_columnsWidth2" value="75" />
+    <property name="sm_test_statistics_table_columnsWidth2" value="116" />
     <property name="sm_test_statistics_table_columnsOrder2" value="2" />
     <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.5" />
     <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="false" />
     <property name="FindSplitterProportion" value="0.25" />
+    <property name="PhpUnitSupport.showStatistics" value="true" />
+    <property name="PhpUnitSupport.hidePassedTests" value="false" />
+    <property name="PhpUnit.Splitter.Proportion" value="0.26275787" />
+    <property name="PhpUnit.Splitter.Proportion_Statistics" value="0.7357513" />
   </component>
 </application>
