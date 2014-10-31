@@ -25,5 +25,6 @@
     <property name="sm_test_statistics_table_columnsOrder2" value="2" />
     <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.5" />
     <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="false" />
+    <property name="FindSplitterProportion" value="0.25" />
   </component>
 </application>
