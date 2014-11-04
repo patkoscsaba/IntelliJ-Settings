@@ -2,8 +2,7 @@
   <template name="thr" value="throw new $END$" description="throw new " toReformat="true" toShortenFQNames="true">
     <context />
   </template>
-  <template name="vd" value="var_dump($WHAT$);$END$" description="Var dump" toReformat="false" toShortenFQNames="true">
-    <variable name="WHAT" expression="complete()" defaultValue="" alwaysStopAt="true" />
+  <template name="vd" value="var_dump($SELECTION$);$END$" description="Var dump" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -85,7 +84,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="vds" value="var_dump($SELECTION$)" description="Var dump selected code - Surround With..." toReformat="true" toShortenFQNames="true">
+  <template name="sp" value="sprintf($SELECTION$, $END$)" description="sprintf - works with surround with" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>

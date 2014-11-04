@@ -157,6 +157,38 @@
           <rule>
             <match>
               <AND>
+                <ABSTRACT>true</ABSTRACT>
+                <METHOD>true</METHOD>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <ABSTRACT>true</ABSTRACT>
+                <METHOD>true</METHOD>
+                <PROTECTED>true</PROTECTED>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <ABSTRACT>true</ABSTRACT>
+                <METHOD>true</METHOD>
+                <PUBLIC>true</PUBLIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
                 <METHOD />
                 <STATIC />
               </AND>
