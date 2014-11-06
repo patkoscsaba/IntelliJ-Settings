@@ -6,20 +6,44 @@
     <keyboard-shortcut first-keystroke="control BACK_SPACE" />
   </action>
   <action id="CommanderSwapPanels" />
-  <action id="Console.TableResult.ColumnSortAsc" />
-  <action id="Console.TableResult.NextPage" />
-  <action id="EditorDeleteToWordStart" />
-  <action id="EditorDuplicate">
-    <keyboard-shortcut first-keystroke="control D" />
+  <action id="CompareDirs" />
+  <action id="CompareJars" />
+  <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.CloneRow">
     <keyboard-shortcut first-keystroke="control alt DOWN" />
     <keyboard-shortcut first-keystroke="shift alt DOWN" />
     <keyboard-shortcut first-keystroke="shift alt UP" />
   </action>
+  <action id="Console.TableResult.ColumnSortAsc" />
+  <action id="Console.TableResult.NextPage" />
+  <action id="DatabaseView.CopyAction">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+  <action id="DatabaseView.ShowDiff" />
+  <action id="Diff.UpdatedFiles" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="control Y" />
+    <keyboard-shortcut first-keystroke="control D" />
+  </action>
+  <action id="EditorDeleteToWordStart" />
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+  <action id="FileChooser.GotoDesktop" />
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt F7" />
     <keyboard-shortcut first-keystroke="control U" />
   </action>
   <action id="GotoSuperMethod" />
+  <action id="GuiDesigner.Duplicate">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
   <action id="MoveLineDown" />
   <action id="MoveLineUp" />
   <action id="NextOccurence" />
@@ -27,6 +51,7 @@
     <keyboard-shortcut first-keystroke="control alt L" />
     <keyboard-shortcut first-keystroke="shift alt F" />
   </action>
+  <action id="SendEOF" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt ENTER" />
   </action>
@@ -36,4 +61,5 @@
   <action id="SwitchRight">
     <keyboard-shortcut first-keystroke="shift alt RIGHT" />
   </action>
+  <action id="openAssertEqualsDiff" />
 </keymap>
