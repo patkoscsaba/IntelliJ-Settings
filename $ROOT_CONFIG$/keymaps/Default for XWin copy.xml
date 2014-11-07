@@ -5,6 +5,7 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="control BACK_SPACE" />
   </action>
+  <action id="CollapseSelection" />
   <action id="CommanderSwapPanels" />
   <action id="CompareDirs" />
   <action id="CompareJars" />
@@ -16,6 +17,8 @@
   </action>
   <action id="Console.TableResult.ColumnSortAsc" />
   <action id="Console.TableResult.NextPage" />
+  <action id="Console.TableResult.Reload" />
+  <action id="Console.TableResult.SetDefault" />
   <action id="DatabaseView.CopyAction">
     <keyboard-shortcut first-keystroke="control alt DOWN" />
     <keyboard-shortcut first-keystroke="shift alt DOWN" />
@@ -23,6 +26,7 @@
   </action>
   <action id="DatabaseView.ShowDiff" />
   <action id="Diff.UpdatedFiles" />
+  <action id="EditorChooseLookupItemDot" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="control Y" />
     <keyboard-shortcut first-keystroke="control D" />
@@ -32,6 +36,12 @@
     <keyboard-shortcut first-keystroke="control alt DOWN" />
     <keyboard-shortcut first-keystroke="shift alt DOWN" />
     <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="control ADD" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="control ADD" />
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FindUsages">
@@ -44,12 +54,28 @@
     <keyboard-shortcut first-keystroke="shift alt DOWN" />
     <keyboard-shortcut first-keystroke="shift alt UP" />
   </action>
+  <action id="Macro.-&gt; at end-of-line">
+    <keyboard-shortcut first-keystroke="control PERIOD" />
+  </action>
+  <action id="Macro.; at end-of-line">
+    <keyboard-shortcut first-keystroke="control SEMICOLON" />
+  </action>
+  <action id="Macro.= at end-of-line">
+    <keyboard-shortcut first-keystroke="control EQUALS" />
+  </action>
   <action id="MoveLineDown" />
   <action id="MoveLineUp" />
   <action id="NextOccurence" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="control alt L" />
     <keyboard-shortcut first-keystroke="shift alt F" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift F6" />
+    <keyboard-shortcut first-keystroke="control R" />
+  </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="control H" />
   </action>
   <action id="SendEOF" />
   <action id="SwitchApply">
@@ -66,6 +92,12 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+  <action id="ThePlugin.Bamboo.RunBuild" />
+  <action id="TypeHierarchy" />
+  <action id="javaee.UpdateRunningApplication">
+    <keyboard-shortcut first-keystroke="control F10" />
+    <keyboard-shortcut first-keystroke="control alt D" />
   </action>
   <action id="openAssertEqualsDiff" />
 </keymap>
