@@ -44,10 +44,17 @@
     <keyboard-shortcut first-keystroke="control ADD" />
   </action>
   <action id="FileChooser.GotoDesktop" />
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="F3" />
+    <keyboard-shortcut first-keystroke="control L" />
+    <keyboard-shortcut first-keystroke="control G" />
+  </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt F7" />
     <keyboard-shortcut first-keystroke="control U" />
   </action>
+  <action id="GotoLine" />
+  <action id="GotoRow" />
   <action id="GotoSuperMethod" />
   <action id="GuiDesigner.Duplicate">
     <keyboard-shortcut first-keystroke="control alt DOWN" />
