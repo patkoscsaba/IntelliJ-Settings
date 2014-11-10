@@ -32,5 +32,7 @@
     <property name="PhpUnit.Splitter.Proportion_Statistics" value="0.7357513" />
     <property name="com.intellij.openapi.editor.actions.MultiplePasteAction$1.splitter" value="0.3" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="SingleInspectionProfilePanel.VERTICAL_DIVIDER_PROPORTION" value="0.5" />
+    <property name="SingleInspectionProfilePanel.HORIZONTAL_DIVIDER_PROPORTION" value="0.5" />
   </component>
 </application>
