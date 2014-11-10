@@ -5,6 +5,15 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="control BACK_SPACE" />
   </action>
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="control K" />
+    <keyboard-shortcut first-keystroke="meta K" />
+  </action>
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="shift alt F10" />
+    <keyboard-shortcut first-keystroke="F1" />
+  </action>
+  <action id="CollapseBlock" />
   <action id="CollapseSelection" />
   <action id="CommanderSwapPanels" />
   <action id="CompareDirs" />
@@ -19,6 +28,7 @@
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.Reload" />
   <action id="Console.TableResult.SetDefault" />
+  <action id="ContextHelp" />
   <action id="DatabaseView.CopyAction">
     <keyboard-shortcut first-keystroke="control alt DOWN" />
     <keyboard-shortcut first-keystroke="shift alt DOWN" />
@@ -36,6 +46,10 @@
     <keyboard-shortcut first-keystroke="control alt DOWN" />
     <keyboard-shortcut first-keystroke="shift alt DOWN" />
     <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="control W" />
+    <keyboard-shortcut first-keystroke="shift control PERIOD" />
   </action>
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="control ADD" />
@@ -84,6 +98,10 @@
   <action id="Replace">
     <keyboard-shortcut first-keystroke="control H" />
   </action>
+  <action id="SelectIn">
+    <keyboard-shortcut first-keystroke="alt F1" />
+    <keyboard-shortcut first-keystroke="shift control 1" />
+  </action>
   <action id="SendEOF" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt ENTER" />
@@ -101,6 +119,7 @@
     <keyboard-shortcut first-keystroke="shift alt UP" />
   </action>
   <action id="ThePlugin.Bamboo.RunBuild" />
+  <action id="ToggleBookmark1" />
   <action id="TypeHierarchy" />
   <action id="javaee.UpdateRunningApplication">
     <keyboard-shortcut first-keystroke="control F10" />
