@@ -17,10 +17,36 @@
     <option name="SELECTION_FOREGROUND" value="" />
   </colors>
   <attributes>
+    <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="ABSTRACT_METHOD_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="ACTIVE_SYNC_EDIT_RANGE">
       <value>
         <option name="BACKGROUND" value="f0f5f0" />
         <option name="EFFECT_COLOR" value="506e50" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="ANNOTATION_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="808000" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ANONYMOUS_CLASS_NAME_ATTRIBUTES">
+      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -74,9 +100,20 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="BOOKMARKS_ATTRIBUTES">
+      <value>
+        <option name="ERROR_STRIPE_COLOR" value="0" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="ffc8c8" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="CLASS_NAME_ATTRIBUTES">
+      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -204,6 +241,16 @@
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
         <option name="FOREGROUND" value="cdcd00" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="CONSTRUCTOR_DECLARATION_ATTRIBUTES">
+      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -564,9 +611,21 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="DOC_COMMENT_TAG_VALUE">
+      <value>
+        <option name="FOREGROUND" value="3d3d3d" />
+        <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="DUPLICATE_FROM_SERVER">
       <value>
         <option name="BACKGROUND" value="f5f7f0" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="ENUM_NAME_ATTRIBUTES">
+      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -629,6 +688,13 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="GROOVY_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="43" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="9900" />
@@ -685,6 +751,12 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="660e7a" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="cccccc" />
@@ -692,9 +764,32 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="INHERITED_METHOD_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="BACKGROUND" value="edfced" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="INSTANCE_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="660e7a" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="INTERFACE_NAME_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="Instance property reference ID">
+      <value>
+        <option name="FOREGROUND" value="660e7a" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -828,6 +923,11 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="LOCAL_VARIABLE_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="LOG_ERROR_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ff0000" />
@@ -846,15 +946,43 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="List/map to object conversion">
+      <value>
+        <option name="FOREGROUND" value="ff" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="99ccff" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="METHOD_CALL_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="METHOD_DECLARATION_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="Map key">
+      <value>
+        <option name="FOREGROUND" value="8000" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="808080" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="PARAMETER_ATTRIBUTES">
+      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1034,6 +1162,11 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="SCOPE_KEY_Production">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="SCOPE_KEY_Project Files">
       <value>
         <option name="EFFECT_TYPE" value="0" />
@@ -1047,6 +1180,69 @@
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="ccccff" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SPY-JS.EXCEPTION">
+      <value>
+        <option name="BACKGROUND" value="ffcccc" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="SPY-JS.FUNCTION_SCOPE">
+      <value>
+        <option name="BACKGROUND" value="ffffd7" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="SPY-JS.PATH_LEVEL_ONE">
+      <value>
+        <option name="BACKGROUND" value="e2ffe2" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="SPY-JS.PATH_LEVEL_TWO">
+      <value>
+        <option name="EFFECT_COLOR" value="0" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="SPY-JS.PROGRAM_SCOPE">
+      <value>
+        <option name="BACKGROUND" value="ffffd7" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="SPY-JS.VALUE_HINT">
+      <value>
+        <option name="EFFECT_COLOR" value="a9a9a9" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="STATIC_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="660e7a" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="660e7a" />
+        <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="STATIC_METHOD_ATTRIBUTES">
+      <value>
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="Static property reference ID">
+      <value>
+        <option name="FOREGROUND" value="660e7a" />
+        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1112,6 +1308,12 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="20999d" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="TYPO">
       <value>
         <option name="EFFECT_COLOR" value="8000" />
@@ -1122,6 +1324,13 @@
       <value>
         <option name="BACKGROUND" value="ffdcdc" />
         <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="Unresolved reference access">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="EFFECT_COLOR" value="808080" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="WARNING_ATTRIBUTES">
