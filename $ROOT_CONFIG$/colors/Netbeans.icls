@@ -1093,6 +1093,42 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="RDOC_DIRECTIVE">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RDOC_EMAIL">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RDOC_HEADINGS">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RDOC_IDENTIFIER">
+      <value>
+        <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RDOC_KEYWORD">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RDOC_URL">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="REST.BOLD">
       <value>
         <option name="FONT_TYPE" value="1" />
