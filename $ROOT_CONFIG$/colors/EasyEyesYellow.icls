@@ -1,8 +1,7 @@
 <scheme name="EasyEyesYellow" version="124" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="15" />
-  <option name="CONSOLE_FONT_NAME" value="Menlo" />
-  <option name="CONSOLE_FONT_SIZE" value="12" />
+  <option name="EDITOR_FONT_SIZE" value="16" />
+  <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
   <option name="EDITOR_FONT_NAME" value="Cousine" />
   <colors>
     <option name="CARET_ROW_COLOR" value="f6f6f6" />
@@ -26,6 +25,13 @@
     </option>
     <option name="ABSTRACT_METHOD_ATTRIBUTES">
       <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="ACTIVE_SYNC_EDIT_RANGE">
+      <value>
+        <option name="BACKGROUND" value="f0f5f0" />
+        <option name="EFFECT_COLOR" value="506e50" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -680,42 +686,6 @@
     <option name="PARAMETER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="885d3b" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="RDOC_DIRECTIVE">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="RDOC_EMAIL">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="RDOC_HEADINGS">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="RDOC_IDENTIFIER">
-      <value>
-        <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="RDOC_KEYWORD">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="RDOC_URL">
-      <value>
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
