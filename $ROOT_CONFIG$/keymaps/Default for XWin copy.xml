@@ -79,6 +79,10 @@
     <keyboard-shortcut first-keystroke="alt F7" />
     <keyboard-shortcut first-keystroke="control U" />
   </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="alt INSERT" />
+    <keyboard-shortcut first-keystroke="control I" />
+  </action>
   <action id="GotoLine" />
   <action id="GotoNextError" />
   <action id="GotoRow" />
@@ -95,6 +99,7 @@
     <keyboard-shortcut first-keystroke="F2" />
   </action>
   <action id="IDEtalk.Rename" />
+  <action id="ImplementMethods" />
   <action id="Inline">
     <keyboard-shortcut first-keystroke="control alt N" />
     <keyboard-shortcut first-keystroke="control alt I" />

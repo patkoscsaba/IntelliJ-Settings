@@ -1,7 +1,7 @@
 <scheme name="Csaba" version="124" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="12" />
-  <option name="EDITOR_FONT_NAME" value="Menlo" />
+  <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
   <colors />
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
@@ -90,12 +90,6 @@
     <option name="BLINKING_HIGHLIGHTS_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="808080" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="BOOKMARKS_ATTRIBUTES">
-      <value>
-        <option name="ERROR_STRIPE_COLOR" value="0" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
