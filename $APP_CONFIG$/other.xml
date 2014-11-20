@@ -318,6 +318,10 @@
     <option name="LAST_BUILD_CHECKED" value="PS-138.2001" />
     <option name="UPDATE_CHANNEL_TYPE" value="release" />
   </component>
+  <component name="UsageViewSettings">
+    <option name="expanded" value="true" />
+    <option name="IS_EXPANDED" value="true" />
+  </component>
   <component name="XDebuggerSettings">
     <data-views />
     <general />
