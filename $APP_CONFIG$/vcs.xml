@@ -1,7 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
+  <component name="GitRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="ssh://admin@danbuild///code/src/omnios-build" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+      </list>
+    </option>
+    <option name="cloneParentDir" value="/Users/patkoscsaba/Work/DanRemoteBuildMachine" />
+  </component>
   <component name="HgGlobalSettings">
     <option name="myHgExecutable" value="/usr/local/bin/hg" />
   </component>
 </application>
-

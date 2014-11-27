@@ -54,6 +54,22 @@
       <component name="RunManager">
         <list size="0" />
       </component>
+      <component name="masterDetails">
+        <states>
+          <state key="ProjectJDKs.UI">
+            <settings>
+              <last-edited>RVM: ruby-1.9.3-p429</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
     </defaultProject>
   </component>
 </application>
