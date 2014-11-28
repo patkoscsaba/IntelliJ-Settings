@@ -94,7 +94,6 @@
     <keyboard-shortcut first-keystroke="control U" />
   </action>
   <action id="Generate">
-    <keyboard-shortcut first-keystroke="alt INSERT" />
     <keyboard-shortcut first-keystroke="control I" />
   </action>
   <action id="GotoLine" />
