@@ -47,6 +47,7 @@
     <keyboard-shortcut first-keystroke="shift alt UP" />
   </action>
   <action id="DatabaseView.ShowDiff" />
+  <action id="Diff.PrevChange" />
   <action id="Diff.UpdatedFiles" />
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="control D" />
@@ -62,6 +63,10 @@
     <keyboard-shortcut first-keystroke="shift alt DOWN" />
     <keyboard-shortcut first-keystroke="shift alt UP" />
   </action>
+  <action id="EditorIndentSelection">
+    <keyboard-shortcut first-keystroke="TAB" />
+    <keyboard-shortcut first-keystroke="alt RIGHT" />
+  </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="LEFT" />
     <keyboard-shortcut first-keystroke="control H" />
@@ -73,6 +78,10 @@
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="control W" />
     <keyboard-shortcut first-keystroke="shift control PERIOD" />
+  </action>
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="shift TAB" />
+    <keyboard-shortcut first-keystroke="alt LEFT" />
   </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="UP" />
@@ -131,6 +140,8 @@
   <action id="MoveLineDown" />
   <action id="MoveLineUp" />
   <action id="NextOccurence" />
+  <action id="NextTab" />
+  <action id="PreviousTab" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="control alt L" />
     <keyboard-shortcut first-keystroke="shift alt F" />
