@@ -47,6 +47,7 @@
   </action>
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="shift control SPACE" />
+    <keyboard-shortcut first-keystroke="control COMMA" />
   </action>
   <action id="CollapseBlock" />
   <action id="CollapseSelection" />
