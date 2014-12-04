@@ -249,6 +249,7 @@
     <option name="lastPath" value="/Volumes/SourceRepos/unistore" />
   </component>
   <component name="RefactoringSettings">
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
     <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
   </component>
   <component name="Registry">
