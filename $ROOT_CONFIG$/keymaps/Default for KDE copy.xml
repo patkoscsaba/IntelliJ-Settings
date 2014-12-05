@@ -227,6 +227,7 @@
   <action id="Macro.Remove first word">
     <keyboard-shortcut first-keystroke="alt BACK_SPACE" />
   </action>
+  <action id="MethodHierarchy" />
   <action id="MoveLineDown" />
   <action id="MoveLineUp" />
   <action id="MoveStatementDown">
@@ -260,7 +261,9 @@
     <keyboard-shortcut first-keystroke="shift F6" />
     <keyboard-shortcut first-keystroke="control R" />
   </action>
-  <action id="Replace" />
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="shift control H" />
+  </action>
   <action id="ResizeToolWindowDown" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift F10" />
