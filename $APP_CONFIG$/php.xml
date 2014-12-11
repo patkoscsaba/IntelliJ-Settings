@@ -1,6 +1,388 @@
 <application>
   <component name="PhpInterpreters">
     <interpreters>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@csabalocalstore:22/usr/local/bin/php" id="11fd3264-4deb-420d-9fb7-cfdbcd00b7a4" name="CsabaLocalStore">
+        <remote_data HOST="csabalocalstore" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
+      <interpreter home="ssh://admin@danbuild:22/usr/bin/php" id="ab10f409-6a24-4368-bd81-adb5d71f499d" name="DanBuild">
+        <remote_data HOST="danbuild" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
       <interpreter home="/usr/local/bin/php" id="37df6cf3-9bb5-4cf4-81b5-4a1f34c3117c" name="PHP 5.6" />
       <interpreter home="ssh://admin@danbuild:22/usr/bin/php" id="ab10f409-6a24-4368-bd81-adb5d71f499d" name="DanBuild">
         <remote_data HOST="danbuild" PORT="22" ANONYMOUS="false" USERNAME="admin" PASSWORD="dfcbdfcedfc7dfc3dfc4" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/admin/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
