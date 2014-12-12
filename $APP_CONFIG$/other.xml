@@ -122,13 +122,6 @@
     <ignored-resource url="http://exslt.org/sets" />
     <ignored-resource url="http://www.w3.org/2000/svg" />
   </component>
-  <component name="FileEditorProviderManager">
-    <option name="selectedProviders">
-      <map>
-        <entry key="com.intellij.database.editor.DatabaseTableFileEditorProvider,text-editor" value="com.intellij.database.editor.DatabaseTableFileEditorProvider" />
-      </map>
-    </option>
-  </component>
   <component name="FindSettings">
     <option name="SEARCH_OVERLOADED_METHODS" value="false" />
     <option name="SEARCH_IN_LIBRARIES" value="false" />
@@ -345,6 +338,9 @@
         <configuration>
           <custom-object-presentation />
         </configuration>
+      </debugger>
+      <debugger id="ruby">
+        <configuration />
       </debugger>
     </debuggers>
   </component>
