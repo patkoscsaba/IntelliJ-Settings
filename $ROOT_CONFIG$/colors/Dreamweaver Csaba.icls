@@ -307,6 +307,7 @@
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="339900" />
+        <option name="BACKGROUND" value="ffffff" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
