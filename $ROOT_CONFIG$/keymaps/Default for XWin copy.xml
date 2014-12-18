@@ -11,6 +11,10 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="control BACK_SPACE" />
   </action>
+  <action id="ChangeSignature">
+    <keyboard-shortcut first-keystroke="control F6" />
+    <keyboard-shortcut first-keystroke="control alt R" />
+  </action>
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="meta K" />
   </action>
@@ -49,6 +53,7 @@
   <action id="DatabaseView.ShowDiff" />
   <action id="Diff.PrevChange" />
   <action id="Diff.UpdatedFiles" />
+  <action id="Django.RunManageTaskAction" />
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="control D" />
   </action>
