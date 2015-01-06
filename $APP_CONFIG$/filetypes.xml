@@ -4,7 +4,8 @@
     <extensionMap>
       <mapping ext="ctp" type="PHP" />
       <mapping pattern="Makefile" type="PLAIN_TEXT" />
+      <mapping ext="mog" type="PLAIN_TEXT" />
     </extensionMap>
-    <setting name="fileTypeChangedCounter" value="1" />
+    <setting name="fileTypeChangedCounter" value="2" />
   </component>
 </application>
