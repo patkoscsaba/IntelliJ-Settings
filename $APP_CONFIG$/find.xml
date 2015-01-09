@@ -2,6 +2,7 @@
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="FILE_MASK" value="build.sh" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -14,6 +15,7 @@
       <mask>*.mo</mask>
       <mask>*.rb</mask>
       <mask>*.js</mask>
+      <mask>build.sh</mask>
     </recentFileMasks>
   </component>
 </application>
