@@ -7,7 +7,8 @@
       <mapping pattern="Makefile" type="PLAIN_TEXT" />
       <mapping ext="mog" type="PLAIN_TEXT" />
       <mapping ext="pkg" type="PLAIN_TEXT" />
+      <mapping ext="m4" type="PLAIN_TEXT" />
     </extensionMap>
-    <setting name="fileTypeChangedCounter" value="4" />
+    <setting name="fileTypeChangedCounter" value="5" />
   </component>
 </application>
