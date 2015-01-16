@@ -2,6 +2,7 @@
   <component name="FindSettings">
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
+    <option name="FILE_MASK" value="*.mog" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -16,6 +17,7 @@
       <mask>*.js</mask>
       <mask>build.sh</mask>
       <mask>Makefile*</mask>
+      <mask>*.mog</mask>
     </recentFileMasks>
   </component>
 </application>
