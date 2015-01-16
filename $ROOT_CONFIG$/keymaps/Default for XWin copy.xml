@@ -22,6 +22,12 @@
     <keyboard-shortcut first-keystroke="shift alt F10" />
     <keyboard-shortcut first-keystroke="F1" />
   </action>
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="shift control W" />
+  </action>
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift control alt W" />
+  </action>
   <action id="CollapseBlock" />
   <action id="CollapseSelection" />
   <action id="CommanderSwapPanels" />
@@ -54,6 +60,7 @@
   <action id="Diff.PrevChange" />
   <action id="Diff.UpdatedFiles" />
   <action id="Django.RunManageTaskAction" />
+  <action id="DumpLookupElementWeights" />
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="control D" />
   </action>
@@ -84,6 +91,7 @@
     <keyboard-shortcut first-keystroke="control W" />
     <keyboard-shortcut first-keystroke="shift control PERIOD" />
   </action>
+  <action id="EditorUnSelectWord" />
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="shift TAB" />
     <keyboard-shortcut first-keystroke="alt LEFT" />
@@ -182,6 +190,7 @@
   <action id="ThePlugin.ShowGlobalSettings" />
   <action id="ToggleBookmark1" />
   <action id="TypeHierarchy" />
+  <action id="WrapAction" />
   <action id="javaee.UpdateRunningApplication">
     <keyboard-shortcut first-keystroke="control F10" />
     <keyboard-shortcut first-keystroke="control alt D" />
