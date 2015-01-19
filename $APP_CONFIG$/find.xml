@@ -15,8 +15,8 @@
       <mask>*.rb</mask>
       <mask>*.js</mask>
       <mask>*.mog</mask>
-      <mask>build.sh</mask>
       <mask>Makefile*</mask>
+      <mask>build.sh</mask>
     </recentFileMasks>
   </component>
 </application>
