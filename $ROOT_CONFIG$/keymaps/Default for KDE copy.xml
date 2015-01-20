@@ -37,7 +37,6 @@
     <keyboard-shortcut first-keystroke="F1" />
   </action>
   <action id="CloseAllEditors">
-    <keyboard-shortcut first-keystroke="shift control W" />
     <keyboard-shortcut first-keystroke="shift meta W" />
   </action>
   <action id="CloseContent">
@@ -138,6 +137,7 @@
   <action id="EditorScrollToCenter" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift control PERIOD" />
+    <keyboard-shortcut first-keystroke="shift control W" />
   </action>
   <action id="EditorSplitLine" />
   <action id="EditorToggleUseSoftWraps">
