@@ -15,6 +15,7 @@
       <mask>*.mog</mask>
       <mask>Makefile*</mask>
       <mask>build.sh</mask>
+      <mask>Makefile</mask>
     </recentFileMasks>
   </component>
 </application>
