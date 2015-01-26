@@ -42,7 +42,6 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="control 4" />
     <keyboard-shortcut first-keystroke="meta W" />
-    <keyboard-shortcut first-keystroke="control W" />
   </action>
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="shift control SPACE" />
@@ -138,6 +137,7 @@
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift control PERIOD" />
     <keyboard-shortcut first-keystroke="shift control W" />
+    <keyboard-shortcut first-keystroke="control W" />
   </action>
   <action id="EditorSplitLine" />
   <action id="EditorToggleUseSoftWraps">
