@@ -16,6 +16,7 @@
       <mask>Makefile</mask>
       <mask>*.mog</mask>
       <mask>Makefile*</mask>
+      <mask>collectd*</mask>
     </recentFileMasks>
   </component>
 </application>
