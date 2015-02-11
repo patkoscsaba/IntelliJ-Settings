@@ -1,8 +1,6 @@
 <application>
   <component name="BaseRefactoringSettings">
-    <option name="SAFE_DELETE_WHEN_DELETE" value="false" />
     <option name="SAFE_DELETE_SEARCH_IN_COMMENTS" value="false" />
-    <option name="MOVE_SEARCH_FOR_REFERENCES_FOR_FILE" value="false" />
   </component>
   <component name="CodeStyleSchemes">
     <option name="CURRENT_SCHEME_NAME" value="Default" />
@@ -124,6 +122,7 @@
     <ignored-resource url="http://www.w3.org/2000/svg" />
   </component>
   <component name="PhpRefactoringSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="true" />
     <option name="RENAME_SEARCH_NON_CODE_FOR_CLASS" value="true" />
     <option name="EXTRACT_METHOD_DEFAULT_VISIBILITY" value="private" />
   </component>

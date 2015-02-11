@@ -1,5 +1,6 @@
 <application>
   <component name="FindSettings">
+    <option name="FILE_MASK" value="*.mog" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -16,8 +17,9 @@
       <mask>Makefile</mask>
       <mask>Makefile*</mask>
       <mask>collectd*</mask>
-      <mask>*.mog</mask>
       <mask>*.s</mask>
+      <mask>*.sh</mask>
+      <mask>*.mog</mask>
     </recentFileMasks>
   </component>
 </application>
