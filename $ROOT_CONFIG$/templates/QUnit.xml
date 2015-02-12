@@ -1,0 +1,10 @@
+<templateSet group="QUnit">
+  <template name="t" value="QUnit.test('$BEHAVIOR$', function(assert) {&#10;&#9;$END$&#10;});" description="QUnit test method" toReformat="true" toShortenFQNames="true">
+    <variable name="BEHAVIOR" expression="" defaultValue="&quot;Behavior&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
