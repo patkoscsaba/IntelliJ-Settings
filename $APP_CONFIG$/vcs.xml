@@ -19,6 +19,17 @@
     <option name="cloneParentDir" value="/Volumes/SourceRepos" />
   </component>
   <component name="HgGlobalSettings">
-    <option name="myHgExecutable" value="/usr/local/bin/hg" />
+    <option name="myHgExecutable" value="hg" />
+  </component>
+  <component name="HgRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="ssh://csaba.patkos@192.168.1.101//Volumes/SourceRepos/unistore/" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+      </list>
+    </option>
+    <option name="cloneParentDir" value="$USER_HOME$/Work/Syneto/Storage OS" />
   </component>
 </application>
