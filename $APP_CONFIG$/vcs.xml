@@ -19,7 +19,7 @@
     <option name="cloneParentDir" value="/Volumes/SourceRepos" />
   </component>
   <component name="HgGlobalSettings">
-    <option name="myHgExecutable" value="hg" />
+    <option name="myHgExecutable" value="/usr/local/bin/hg" />
   </component>
   <component name="HgRememberedInputs">
     <option name="visitedUrls">
