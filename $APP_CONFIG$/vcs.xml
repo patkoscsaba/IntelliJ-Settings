@@ -14,6 +14,10 @@
           <option name="url" value="https://github.com/SynetoNet/collectd.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="ssh://admin@storage.dev.syneto.net//tank/source-repository/storageos3/caiman" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="/Volumes/SourceRepos" />
