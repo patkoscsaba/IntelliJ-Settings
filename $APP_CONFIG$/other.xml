@@ -168,7 +168,7 @@
     </option>
   </component>
   <component name="TeamCityHistory">
-    <option name="HISTORY" value="http://buildserver&amp;^%$#@csaba.patkos" />
+    <option name="HISTORY" value="http://vmbox-desk:8111&amp;^%$#@patkoscsaba@#$%^&amp;http://buildserver&amp;^%$#@csaba.patkos" />
   </component>
   <component name="TemplateSettings">
     <defaultShortcut shortcut="TAB" />
@@ -202,6 +202,9 @@
         <configuration>
           <custom-object-presentation />
         </configuration>
+      </debugger>
+      <debugger id="ruby">
+        <configuration />
       </debugger>
     </debuggers>
   </component>
