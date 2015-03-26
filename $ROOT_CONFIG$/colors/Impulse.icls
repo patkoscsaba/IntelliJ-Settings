@@ -1,7 +1,7 @@
 <scheme name="Impulse" version="124" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="13" />
-  <option name="EDITOR_FONT_NAME" value="Menlo" />
+  <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
   <colors>
     <option name="CARET_ROW_COLOR" value="f2f2f7" />
     <option name="LINE_NUMBERS_COLOR" value="2b91af" />
