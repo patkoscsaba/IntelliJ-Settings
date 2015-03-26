@@ -118,6 +118,9 @@
   <action id="Generate">
     <keyboard-shortcut first-keystroke="control I" />
   </action>
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="control T" />
+  </action>
   <action id="GotoLine" />
   <action id="GotoNextError" />
   <action id="GotoRow" />
@@ -190,7 +193,11 @@
   <action id="ThePlugin.ShowGlobalSettings" />
   <action id="ToggleBookmark1" />
   <action id="TypeHierarchy" />
+  <action id="Vcs.UpdateProject" />
   <action id="WrapAction" />
+  <action id="hg4idea.pull">
+    <keyboard-shortcut first-keystroke="control T" />
+  </action>
   <action id="javaee.UpdateRunningApplication">
     <keyboard-shortcut first-keystroke="control F10" />
     <keyboard-shortcut first-keystroke="control alt D" />
