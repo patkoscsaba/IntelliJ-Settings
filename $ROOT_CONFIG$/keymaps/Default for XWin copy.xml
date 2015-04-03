@@ -118,7 +118,7 @@
   <action id="Generate">
     <keyboard-shortcut first-keystroke="control I" />
   </action>
-  <action id="Git.Fetch">
+  <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="control T" />
   </action>
   <action id="GotoLine" />
