@@ -1,4 +1,4 @@
-<scheme name="Dark Scheme" version="124" parent_scheme="Default">
+<scheme name="Dark Scheme" version="141" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Cousine" />
@@ -91,13 +91,6 @@
       <value>
         <option name="BACKGROUND" value="cad9fa" />
         <option name="ERROR_STRIPE_COLOR" value="bccff9" />
-      </value>
-    </option>
-    <option name="ERRORS_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_COLOR" value="ff0000" />
-        <option name="ERROR_STRIPE_COLOR" value="ff0000" />
-        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
@@ -452,7 +445,7 @@
       <value>
         <option name="BACKGROUND" value="f6ebbc" />
         <option name="EFFECT_COLOR" value="2553ff" />
-        <option name="ERROR_STRIPE_COLOR" value="ffff00" />
+        <option name="ERROR_STRIPE_COLOR" value="ebc700" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>

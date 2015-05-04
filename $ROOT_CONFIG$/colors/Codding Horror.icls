@@ -1,4 +1,4 @@
-<scheme name="Codding Horror" version="124" parent_scheme="Default">
+<scheme name="Codding Horror" version="141" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Cousine" />
@@ -325,18 +325,11 @@
         <option name="FOREGROUND" value="18aade" />
       </value>
     </option>
-    <option name="ERRORS_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_COLOR" value="ff0000" />
-        <option name="ERROR_STRIPE_COLOR" value="ff0000" />
-        <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffffff" />
         <option name="BACKGROUND" value="ff" />
-        <option name="ERROR_STRIPE_COLOR" value="ff" />
+        <option name="ERROR_STRIPE_COLOR" value="3763b0" />
       </value>
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
@@ -500,13 +493,6 @@
       <value>
         <option name="EFFECT_COLOR" value="8000" />
         <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="WARNING_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="f6ebbc" />
-        <option name="ERROR_STRIPE_COLOR" value="ffff00" />
-        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
