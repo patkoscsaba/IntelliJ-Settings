@@ -3,6 +3,7 @@
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.js" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -13,7 +14,6 @@
       <mask>*.mxml</mask>
       <mask>*.mo</mask>
       <mask>*.rb</mask>
-      <mask>*.js</mask>
       <mask>build.sh</mask>
       <mask>Makefile</mask>
       <mask>Makefile*</mask>
@@ -22,6 +22,7 @@
       <mask>*.sh</mask>
       <mask>*.mog</mask>
       <mask>*.xml</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
