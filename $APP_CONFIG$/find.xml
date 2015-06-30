@@ -3,13 +3,13 @@
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.css" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
       <mask>*.jsp</mask>
       <mask>*.java</mask>
       <mask>*.as</mask>
-      <mask>*.css</mask>
       <mask>*.mxml</mask>
       <mask>*.mo</mask>
       <mask>*.rb</mask>
@@ -23,6 +23,7 @@
       <mask>*.xml</mask>
       <mask>*.js</mask>
       <mask>*.vm</mask>
+      <mask>*.css</mask>
     </recentFileMasks>
   </component>
 </application>
