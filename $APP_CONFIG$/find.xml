@@ -19,10 +19,10 @@
       <mask>*.s</mask>
       <mask>*.sh</mask>
       <mask>*.mog</mask>
-      <mask>*.js</mask>
-      <mask>*.vm</mask>
       <mask>*.css</mask>
       <mask>*.xml</mask>
+      <mask>*.vm</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
