@@ -1,0 +1,28 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="Project 'FeedXLWebapp'" />
+    <option name="defaultScopeName" value="Project 'FeedXLWebapp'" />
+    <option name="SEARCH_SCOPE" value="Project 'FeedXLWebapp'" />
+    <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.html</mask>
+      <mask>*.jsp</mask>
+      <mask>*.java</mask>
+      <mask>*.as</mask>
+      <mask>*.mxml</mask>
+      <mask>*.mo</mask>
+      <mask>*.rb</mask>
+      <mask>build.sh</mask>
+      <mask>Makefile</mask>
+      <mask>Makefile*</mask>
+      <mask>collectd*</mask>
+      <mask>*.s</mask>
+      <mask>*.sh</mask>
+      <mask>*.mog</mask>
+      <mask>*.css</mask>
+      <mask>*.vm</mask>
+      <mask>*.js</mask>
+      <mask>*.xml</mask>
+    </recentFileMasks>
+  </component>
+</application>

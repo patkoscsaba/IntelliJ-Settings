@@ -37,16 +37,15 @@
     <keyboard-shortcut first-keystroke="F1" />
   </action>
   <action id="CloseAllEditors">
-    <keyboard-shortcut first-keystroke="shift control W" />
     <keyboard-shortcut first-keystroke="shift meta W" />
   </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="control 4" />
     <keyboard-shortcut first-keystroke="meta W" />
-    <keyboard-shortcut first-keystroke="control W" />
   </action>
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="shift control SPACE" />
+    <keyboard-shortcut first-keystroke="control COMMA" />
   </action>
   <action id="CollapseBlock" />
   <action id="CollapseSelection" />
@@ -137,6 +136,8 @@
   <action id="EditorScrollToCenter" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift control PERIOD" />
+    <keyboard-shortcut first-keystroke="shift control W" />
+    <keyboard-shortcut first-keystroke="control W" />
   </action>
   <action id="EditorSplitLine" />
   <action id="EditorToggleUseSoftWraps">
@@ -174,6 +175,9 @@
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="control I" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="meta B" />
   </action>
   <action id="GotoAction" />
   <action id="GotoDeclaration">
@@ -226,6 +230,7 @@
   <action id="Macro.Remove first word">
     <keyboard-shortcut first-keystroke="alt BACK_SPACE" />
   </action>
+  <action id="MethodHierarchy" />
   <action id="MoveLineDown" />
   <action id="MoveLineUp" />
   <action id="MoveStatementDown">
@@ -259,7 +264,9 @@
     <keyboard-shortcut first-keystroke="shift F6" />
     <keyboard-shortcut first-keystroke="control R" />
   </action>
-  <action id="Replace" />
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="shift control H" />
+  </action>
   <action id="ResizeToolWindowDown" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift F10" />
@@ -299,6 +306,9 @@
   <action id="WebOpenInAction" />
   <action id="WelcomeScreen.ReopenRecent">
     <keyboard-shortcut first-keystroke="alt F2" />
+  </action>
+  <action id="hg4idea.branches">
+    <keyboard-shortcut first-keystroke="meta B" />
   </action>
   <action id="hg4idea.push">
     <keyboard-shortcut first-keystroke="control P" />
