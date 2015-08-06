@@ -166,6 +166,9 @@
   <component name="TeamCityHistory">
     <option name="HISTORY" value="http://buildserver&amp;^%$#@csaba.patkos" />
   </component>
+  <component name="TemplateSettings">
+    <defaultShortcut shortcut="TAB" />
+  </component>
   <component name="TodoConfiguration">
     <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
       <option name="FOREGROUND" value="ff" />
