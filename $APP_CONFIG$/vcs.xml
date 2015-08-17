@@ -3,38 +3,26 @@
     <option name="visitedUrls">
       <list>
         <UrlAndUserName>
-          <option name="url" value="ssh://admin@storage.dev.syneto.net//tank/source-repository/storageos3/illumos-omnios" />
+          <option name="url" value="https://github.com/xprime/FeedXLWebapp.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://github.com/SynetoNet/CollectdPlugins.git" />
+          <option name="url" value="https://github.com/xprime/FeedXLDocs.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://github.com/SynetoNet/collectd.git" />
+          <option name="url" value="https://github.com/xprime/FeedXLDeploy.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="ssh://admin@storage.dev.syneto.net//tank/source-repository/storageos3/caiman" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="ssh://admin@storage//tank/extra-repositories/tsm-article" />
+          <option name="url" value="https://github.com/xprime/FeedXLWebappTests.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Work/Syneto" />
+    <option name="cloneParentDir" value="$USER_HOME$/Personal/Work/FeedXL" />
   </component>
-  <component name="HgRememberedInputs">
-    <option name="visitedUrls">
-      <list>
-        <UrlAndUserName>
-          <option name="url" value="ssh://csaba.patkos@192.168.1.101//Volumes/SourceRepos/unistore/" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-      </list>
-    </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Work/Syneto/Storage OS" />
+  <component name="HgGlobalSettings">
+    <option name="myHgExecutable" value="/usr/local/bin/hg" />
   </component>
 </application>
