@@ -1,10 +1,15 @@
 <application>
-  <component name="FileTypeManager" version="11">
-    <ignoreFiles list="CVS;SCCS;RCS;rcs;.DS_Store;.svn;.pyc;.pyo;*.pyc;*.pyo;.git;*.hprof;_svn;.hg;*.lib;*~;__pycache__;.bundle;*.rbc;*.orig;*.o;*.obj;vssver.scc;vssver2.scc;" />
+  <component name="FileTypeManager" version="14">
+    <ignoreFiles list="*.hprof;*.o;*.obj;*.orig;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.bundle;.git;.hg;.svn;.tox;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
     <extensionMap>
       <mapping ext="ctp" type="PHP" />
+      <mapping pattern="series" type="PLAIN_TEXT" />
+      <mapping pattern="ssh_config" type="PLAIN_TEXT" />
       <mapping pattern="Makefile" type="PLAIN_TEXT" />
+      <mapping ext="mog" type="PLAIN_TEXT" />
+      <mapping ext="drift" type="PLAIN_TEXT" />
+      <mapping ext="pkg" type="PLAIN_TEXT" />
+      <mapping ext="m4" type="PLAIN_TEXT" />
     </extensionMap>
-    <setting name="fileTypeChangedCounter" value="2" />
   </component>
 </application>
