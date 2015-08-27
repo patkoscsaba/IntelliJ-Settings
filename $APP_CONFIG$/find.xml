@@ -3,7 +3,7 @@
     <option name="customScope" value="Project 'FeedXLWebapp'" />
     <option name="defaultScopeName" value="Project 'FeedXLWebapp'" />
     <option name="SEARCH_SCOPE" value="Project 'FeedXLWebapp'" />
-    <option name="FILE_MASK" value="*.vm" />
+    <option name="FILE_MASK" value="*.js" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -22,8 +22,8 @@
       <mask>*.mog</mask>
       <mask>*.css</mask>
       <mask>*.xml</mask>
-      <mask>*.js</mask>
       <mask>*.vm</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
