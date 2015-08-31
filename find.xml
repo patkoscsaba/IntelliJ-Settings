@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="Project 'FeedXLWebapp'" />
     <option name="defaultScopeName" value="Project 'FeedXLWebapp'" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Project 'FeedXLWebapp'" />
     <recentFileMasks>
       <mask>*.properties</mask>
