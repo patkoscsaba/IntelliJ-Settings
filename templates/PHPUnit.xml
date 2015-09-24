@@ -63,8 +63,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="sr" value="$TESTED_OBJECT$-&gt;shouldReceive('$METHOD$')-&gt;$END$" description="Mockery Should Receive" toReformat="false" toShortenFQNames="true">
-    <variable name="TESTED_OBJECT" expression="" defaultValue="&quot;$this&quot;" alwaysStopAt="true" />
+  <template name="sr" value="shouldReceive('$METHOD$')-&gt;$END$" description="Mockery Should Receive" toReformat="false" toShortenFQNames="true">
     <variable name="METHOD" expression="" defaultValue="&quot;METHOD&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
