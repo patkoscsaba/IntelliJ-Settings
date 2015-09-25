@@ -89,4 +89,22 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="li" value="$this-&gt;logInfo($MESSAGE$);$END$" description="Log Info" toReformat="false" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="&quot;MESSAGE&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="le" value="$this-&gt;logError($MESSAGE$);$END$" description="Log Error" toReformat="false" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="&quot;MESSAGE&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="lw" value="$this-&gt;logWarning($MESSAGE$);$END$" description="Log Warning" toReformat="false" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="&quot;MESSAGE&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
