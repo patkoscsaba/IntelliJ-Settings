@@ -1,32 +1,32 @@
 <keymap version="1" name="Default for XWin copy" parent="Default for XWin">
   <action id="$Cut">
-    <keyboard-shortcut first-keystroke="control X" />
-    <keyboard-shortcut first-keystroke="shift DELETE" />
-    <keyboard-shortcut first-keystroke="control D" />
+    <keyboard-shortcut first-keystroke="ctrl x" />
+    <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="AddToFavoritesPopup" />
   <action id="AutoIndentLines" />
   <action id="Back">
-    <keyboard-shortcut first-keystroke="control alt LEFT" />
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
     <mouse-shortcut keystroke="button4" />
-    <keyboard-shortcut first-keystroke="control BACK_SPACE" />
+    <keyboard-shortcut first-keystroke="ctrl back_space" />
   </action>
   <action id="ChangeSignature">
-    <keyboard-shortcut first-keystroke="control F6" />
-    <keyboard-shortcut first-keystroke="control alt R" />
+    <keyboard-shortcut first-keystroke="ctrl f6" />
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
   <action id="CheckinProject">
-    <keyboard-shortcut first-keystroke="meta K" />
+    <keyboard-shortcut first-keystroke="meta k" />
   </action>
   <action id="ChooseRunConfiguration">
-    <keyboard-shortcut first-keystroke="shift alt F10" />
-    <keyboard-shortcut first-keystroke="F1" />
+    <keyboard-shortcut first-keystroke="shift alt f10" />
+    <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="CloseAllEditors">
-    <keyboard-shortcut first-keystroke="shift control W" />
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
   <action id="CloseAllEditorsButActive">
-    <keyboard-shortcut first-keystroke="shift control alt W" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt w" />
   </action>
   <action id="CollapseBlock" />
   <action id="CollapseSelection" />
@@ -35,16 +35,16 @@
   <action id="CompareJars" />
   <action id="CompareTwoFiles" />
   <action id="Console.TableResult.CloneRow">
-    <keyboard-shortcut first-keystroke="control alt DOWN" />
-    <keyboard-shortcut first-keystroke="shift alt DOWN" />
-    <keyboard-shortcut first-keystroke="shift alt UP" />
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+    <keyboard-shortcut first-keystroke="shift alt down" />
+    <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="Console.TableResult.ColumnSortAsc" />
   <action id="Console.TableResult.DeleteRows">
-    <keyboard-shortcut first-keystroke="control Y" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="Console.TableResult.EditValue">
-    <keyboard-shortcut first-keystroke="alt ENTER" />
+    <keyboard-shortcut first-keystroke="alt enter" />
   </action>
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.Reload" />
@@ -52,9 +52,9 @@
   <action id="ContextHelp" />
   <action id="DSM.GoToNextCycle" />
   <action id="DatabaseView.CopyAction">
-    <keyboard-shortcut first-keystroke="control alt DOWN" />
-    <keyboard-shortcut first-keystroke="shift alt DOWN" />
-    <keyboard-shortcut first-keystroke="shift alt UP" />
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+    <keyboard-shortcut first-keystroke="shift alt down" />
+    <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="DatabaseView.ShowDiff" />
   <action id="Diff.PrevChange" />
@@ -62,95 +62,95 @@
   <action id="Django.RunManageTaskAction" />
   <action id="DumpLookupElementWeights" />
   <action id="Editor Cut">
-    <keyboard-shortcut first-keystroke="control D" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="EditorChooseLookupItemDot" />
   <action id="EditorDeleteToWordStart" />
   <action id="EditorDown">
-    <keyboard-shortcut first-keystroke="DOWN" />
-    <keyboard-shortcut first-keystroke="control J" />
+    <keyboard-shortcut first-keystroke="down" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
   <action id="EditorDuplicate">
-    <keyboard-shortcut first-keystroke="control alt DOWN" />
-    <keyboard-shortcut first-keystroke="shift alt DOWN" />
-    <keyboard-shortcut first-keystroke="shift alt UP" />
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+    <keyboard-shortcut first-keystroke="shift alt down" />
+    <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="EditorIndentSelection">
-    <keyboard-shortcut first-keystroke="TAB" />
-    <keyboard-shortcut first-keystroke="alt RIGHT" />
+    <keyboard-shortcut first-keystroke="tab" />
+    <keyboard-shortcut first-keystroke="alt right" />
   </action>
   <action id="EditorLeft">
-    <keyboard-shortcut first-keystroke="LEFT" />
-    <keyboard-shortcut first-keystroke="control H" />
+    <keyboard-shortcut first-keystroke="left" />
+    <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
   <action id="EditorRight">
-    <keyboard-shortcut first-keystroke="RIGHT" />
-    <keyboard-shortcut first-keystroke="control L" />
+    <keyboard-shortcut first-keystroke="right" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
   <action id="EditorSelectWord">
-    <keyboard-shortcut first-keystroke="control W" />
-    <keyboard-shortcut first-keystroke="shift control PERIOD" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+    <keyboard-shortcut first-keystroke="shift ctrl period" />
   </action>
   <action id="EditorUnSelectWord" />
   <action id="EditorUnindentSelection">
-    <keyboard-shortcut first-keystroke="shift TAB" />
-    <keyboard-shortcut first-keystroke="alt LEFT" />
+    <keyboard-shortcut first-keystroke="shift tab" />
+    <keyboard-shortcut first-keystroke="alt left" />
   </action>
   <action id="EditorUp">
-    <keyboard-shortcut first-keystroke="UP" />
-    <keyboard-shortcut first-keystroke="control K" />
+    <keyboard-shortcut first-keystroke="up" />
+    <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
   <action id="ExpandAll">
-    <keyboard-shortcut first-keystroke="control ADD" />
+    <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
   <action id="ExpandRegion">
-    <keyboard-shortcut first-keystroke="control ADD" />
+    <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FindNext">
-    <keyboard-shortcut first-keystroke="F3" />
-    <keyboard-shortcut first-keystroke="control G" />
+    <keyboard-shortcut first-keystroke="f3" />
+    <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
   <action id="FindUsages">
-    <keyboard-shortcut first-keystroke="alt F7" />
-    <keyboard-shortcut first-keystroke="control U" />
+    <keyboard-shortcut first-keystroke="alt f7" />
+    <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
   <action id="Generate">
-    <keyboard-shortcut first-keystroke="control I" />
+    <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
   <action id="Git.Pull">
-    <keyboard-shortcut first-keystroke="control T" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="GotoLine" />
   <action id="GotoNextError" />
   <action id="GotoRow" />
   <action id="GotoSuperMethod" />
   <action id="GuiDesigner.Duplicate">
-    <keyboard-shortcut first-keystroke="control alt DOWN" />
-    <keyboard-shortcut first-keystroke="shift alt DOWN" />
-    <keyboard-shortcut first-keystroke="shift alt UP" />
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+    <keyboard-shortcut first-keystroke="shift alt down" />
+    <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="GuiDesigner.EditComponent" />
   <action id="GuiDesigner.EditGroup" />
   <action id="HideActiveWindow">
-    <keyboard-shortcut first-keystroke="shift ESCAPE" />
-    <keyboard-shortcut first-keystroke="F2" />
+    <keyboard-shortcut first-keystroke="shift escape" />
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="IDEtalk.Rename" />
   <action id="ImplementMethods" />
   <action id="Inline">
-    <keyboard-shortcut first-keystroke="control alt N" />
-    <keyboard-shortcut first-keystroke="control alt I" />
+    <keyboard-shortcut first-keystroke="ctrl alt n" />
+    <keyboard-shortcut first-keystroke="ctrl alt i" />
   </action>
   <action id="InsertLiveTemplate" />
   <action id="Macro.-&gt; at end-of-line">
-    <keyboard-shortcut first-keystroke="control PERIOD" />
+    <keyboard-shortcut first-keystroke="ctrl period" />
   </action>
   <action id="Macro.; at end-of-line">
-    <keyboard-shortcut first-keystroke="control SEMICOLON" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
   <action id="Macro.= at end-of-line">
-    <keyboard-shortcut first-keystroke="control EQUALS" />
+    <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
   <action id="MethodHierarchy" />
   <action id="MoveLineDown" />
@@ -159,35 +159,35 @@
   <action id="NextTab" />
   <action id="PreviousTab" />
   <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="control alt L" />
-    <keyboard-shortcut first-keystroke="shift alt F" />
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="shift alt f" />
   </action>
   <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="shift F6" />
-    <keyboard-shortcut first-keystroke="control R" />
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="Replace">
-    <keyboard-shortcut first-keystroke="shift control H" />
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
   <action id="SelectIn">
-    <keyboard-shortcut first-keystroke="alt F1" />
-    <keyboard-shortcut first-keystroke="shift control 1" />
+    <keyboard-shortcut first-keystroke="alt f1" />
+    <keyboard-shortcut first-keystroke="shift ctrl 1" />
   </action>
   <action id="SendEOF" />
   <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+    <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
   <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+    <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
   <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+    <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
   <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+    <keyboard-shortcut first-keystroke="shift alt right" />
   </action>
   <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="shift alt UP" />
+    <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="ThePlugin.Bamboo.RunBuild" />
   <action id="ThePlugin.ShowGlobalSettings" />
@@ -196,11 +196,11 @@
   <action id="Vcs.UpdateProject" />
   <action id="WrapAction" />
   <action id="hg4idea.pull">
-    <keyboard-shortcut first-keystroke="control T" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="javaee.UpdateRunningApplication">
-    <keyboard-shortcut first-keystroke="control F10" />
-    <keyboard-shortcut first-keystroke="control alt D" />
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
   <action id="openAssertEqualsDiff" />
 </keymap>

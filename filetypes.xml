@@ -3,12 +3,12 @@
     <ignoreFiles list="*.hprof;*.o;*.obj;*.orig;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.bundle;.git;.hg;.svn;.tox;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
     <extensionMap>
       <mapping ext="ctp" type="PHP" />
+      <mapping pattern="Makefile" type="PLAIN_TEXT" />
       <mapping pattern="series" type="PLAIN_TEXT" />
       <mapping pattern="ssh_config" type="PLAIN_TEXT" />
-      <mapping pattern="Makefile" type="PLAIN_TEXT" />
       <mapping ext="mog" type="PLAIN_TEXT" />
-      <mapping ext="drift" type="PLAIN_TEXT" />
       <mapping ext="pkg" type="PLAIN_TEXT" />
+      <mapping ext="drift" type="PLAIN_TEXT" />
       <mapping ext="m4" type="PLAIN_TEXT" />
     </extensionMap>
   </component>

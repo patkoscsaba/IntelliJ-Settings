@@ -32,9 +32,6 @@
         <option name="FOREGROUND" value="969696" />
       </value>
     </option>
-    <option name="CSS.FUNCTION">
-      <value />
-    </option>
     <option name="CSS.IDENT">
       <value>
         <option name="FOREGROUND" value="7a00" />
@@ -55,9 +52,6 @@
       <value>
         <option name="FOREGROUND" value="e6" />
       </value>
-    </option>
-    <option name="CSS.PROPERTY_VALUE">
-      <value />
     </option>
     <option name="CSS.STRING">
       <value>
@@ -191,9 +185,6 @@
         <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
-    <option name="JS.INSTANCE_MEMBER_VARIABLE">
-      <value />
-    </option>
     <option name="JS.INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="e67a00" />
@@ -305,9 +296,6 @@
       <value>
         <option name="FOREGROUND" value="6d3206" />
       </value>
-    </option>
-    <option name="PHP_PREDEFINED SYMBOL">
-      <value />
     </option>
     <option name="PHP_SCRIPTING_BACKGROUND">
       <value>
