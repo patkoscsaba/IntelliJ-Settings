@@ -306,6 +306,9 @@
         <option name="FOREGROUND" value="6d3206" />
       </value>
     </option>
+    <option name="PHP_PREDEFINED SYMBOL">
+      <value />
+    </option>
     <option name="PHP_SCRIPTING_BACKGROUND">
       <value>
         <option name="BACKGROUND" value="ffffff" />

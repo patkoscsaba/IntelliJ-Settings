@@ -14,6 +14,7 @@
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="true" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
@@ -33,6 +34,7 @@
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="true" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
@@ -53,6 +55,7 @@
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="true" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
@@ -72,6 +75,7 @@
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="true" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
