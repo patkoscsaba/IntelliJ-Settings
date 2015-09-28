@@ -64,9 +64,11 @@
   </action>
   <action id="Console.TableResult.Reload" />
   <action id="ContextHelp" />
+  <action id="CopyPaths" />
   <action id="DatabaseView.CopyAction">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
+  <action id="DatabaseView.GenerateDDLAction" />
   <action id="DatabaseView.ShowDiff" />
   <action id="Diagram.SelectAll">
     <keyboard-shortcut first-keystroke="meta a" />
@@ -319,5 +321,13 @@
   <action id="revu.CreateIssue">
     <keyboard-shortcut first-keystroke="alt i" />
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
+  </action>
+  <action id="tasks.close">
+    <keyboard-shortcut first-keystroke="shift alt w" />
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+  </action>
+  <action id="tasks.goto">
+    <keyboard-shortcut first-keystroke="shift alt n" />
+    <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
 </keymap>
