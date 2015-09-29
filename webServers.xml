@@ -1,0 +1,13 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="54ed3dc0-f831-4a84-8229-1a264016074a" name="csabastore" url="http://csabastore">
+        <fileTransfer host="csabastore" port="22" accessType="SFTP" username="">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
