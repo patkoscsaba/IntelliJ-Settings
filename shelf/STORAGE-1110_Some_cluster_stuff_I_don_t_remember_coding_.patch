@@ -1,0 +1,178 @@
+Index: Lego/HA/Cluster.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Lego/HA/Cluster.php	(revision 7703:9aacd57ad2f05735741f2ccac2aa5de31a80884c)
++++ Lego/HA/Cluster.php	(revision )
+@@ -7,7 +7,7 @@
+ 	private $hbService;
+ 	private $stmfProxy;
+ 	private $monitor;
+-	public static $maxConnectionWaitTime = 120;
++	public static $maxWaitTime = 120;
+ 
+ 	function __construct(HA_Pacemaker_Configurator $pacemakerConfigurator = null, HA_Heartbeat_Service $hbService = null,
+ 						 Scsi_StmfProxy $stmfproxy = null, HA_Pacemaker_Monitor $monitor = null) {
+@@ -18,42 +18,57 @@
+ 		$this->setLogger($this->getLoggerFromRegistry('HA'));
+ 	}
+ 
+-	function create($hbInterface) {
++	function create($hbInterface, HA_Synchronization_LocalNodeSynchronizer $localNodeSynchronizer = null, HA_Progress_Overall $progress = null) {
++		$progress = $progress ? : new HA_Progress_Overall('creating');
++		$progress->markAsInitializing();
+ 		try {
+-			$this->unsetClusterAsShuttingDown();
+-			$this->pacemakerConfigurator->configureForFirstRun();
+-			$this->hbService->startWithNewConfig($hbInterface);
+-			$this->monitor->waitForLocalNodeToBeOnline(self::$maxConnectionWaitTime);
+-			$this->pacemakerConfigurator->configureGlobalProperties();
+-			$this->stmfProxy->startProxyOnLocalNode();
++			$this->unsetClusterAsShuttingDown($progress);
++			$this->pacemakerConfigurator->configureForFirstRun(null, $progress);
++			$this->hbService->startWithNewConfig($hbInterface, $progress);
++			$this->monitor->waitForLocalNodeToBeOnline(self::$maxWaitTime, $progress);
++			$this->pacemakerConfigurator->configureGlobalProperties($progress);
++			$this->stmfProxy->startProxyOnLocalNode($progress);
++			$localNodeSynchronizer = $localNodeSynchronizer ? : new HA_Synchronization_LocalNodeSynchronizer();
++			$localNodeSynchronizer->putLocalTargetsOnline(null, $progress);
+ 			$this->logInfo(sprintf('Created cluster using heartbeat interface %s', $hbInterface));
+-		} catch(Exception $e) {
++		} catch (Exception $e) {
+-			$this->logError(sprintf('Creating cluster failed! Aborting! (Reason: %s)', $e->getMessage()));
++			$failureMessage = $e->getMessage();
++			$progress->addFailedStep('Creating cluster failed!', $failureMessage);
++			$this->logError(sprintf('Creating cluster failed! Aborting! (Reason: %s)', $failureMessage));
+ 			$this->disableLocally();
+-			throw $e;
++		} finally {
++			$progress->markAsFinished();
+ 		}
+ 	}
+ 
+-	function joinAnother(Networking_StorageNode $remoteActiveNode, HA_Synchronization_LocalNodeSynchronizer $localNodeSynchronizer = null) {
++	function joinAnother(Networking_StorageNode $remoteActiveNode, HA_Synchronization_LocalNodeSynchronizer $localNodeSynchronizer = null, HA_Performer_ShareSynchronizer $shareSynchronizer = null, HA_Progress_Overall $progress = null) {
++		$progress = $progress ? : new HA_Progress_Overall('joining');
++		$progress->markAsInitializing();
++		$shareSynchronizer = $shareSynchronizer ? : new HA_Performer_ShareSynchronizer();
+ 		try {
+-			$this->verifyThereIsAnActiveClusterOnTheRemoteNode($remoteActiveNode);
+-			$this->unsetClusterAsShuttingDown();
+-			$this->hbService->downloadConfigFrom($remoteActiveNode);
+-			$this->pacemakerConfigurator->configureUsingRemoteNode($remoteActiveNode);
+-			$this->hbService->enable();
+-			$this->monitor->waitForClusterConnection(self::$maxConnectionWaitTime);
++			$this->verifyThereIsAnActiveClusterOnTheRemoteNode($remoteActiveNode, $progress);
++			$this->unsetClusterAsShuttingDown($progress);
++			$this->hbService->downloadConfigFrom($remoteActiveNode, $progress);
++			$this->pacemakerConfigurator->configureUsingRemoteNode($remoteActiveNode, $progress);
++			$this->enableHeartbeatInterface($progress);
++			// In order to provide detailed progress for waiting we pass the progress to the method.
++			$this->monitor->waitForClusterConnection(self::$maxWaitTime, $progress);
+ 			try {
+-				$this->stmfProxy->startUsingHARemoteNodeConfiguration($remoteActiveNode);
+-				$localNodeSynchronizer = $localNodeSynchronizer ? : new HA_Synchronization_LocalNodeSynchronizer();
+-				$localNodeSynchronizer->syncWithNode($remoteActiveNode);
++				$this->stmfProxy->startUsingHARemoteNodeConfiguration($remoteActiveNode, $progress);
++				$shareSynchronizer->makeItAsync($remoteActiveNode, $localNodeSynchronizer);
+ 			} catch (Networking_Exception_ReadTimeout $e) {
++				$progress->addFailedStep('An exception has occured', $e->getMessage());
+ 				$this->logWarning($e);
+ 			}
++			$remoteActiveNode->syncPoolCacheFiles();
+ 			$this->logInfo(sprintf('Joined cluster from node %s', $remoteActiveNode->getIpOrHostname()));
+-		} catch(Exception $e) {
++		} catch (Exception $e) {
+-			$this->logError(sprintf('Joining cluster failed! Aborting! (Reason: %s)', $e->getMessage()));
++			$failureMessage = $e->getMessage();
++			$progress->addFailedStep('Joining cluster failed!', $failureMessage);
++			$this->logError(sprintf('Joining cluster failed! Aborting! (Reason: %s)', $failureMessage));
+ 			$this->disableLocally();
+-			throw $e;
++		} finally {
++			$progress->markAsFinished();
+ 		}
+ 	}
+ 
+@@ -66,6 +81,7 @@
+ 
+ 	function enterMaintenance() {
+ 		$this->pacemakerConfigurator->configureProperty(HA_Pacemaker_Configuration::$maintenanceModePropertyName, true);
++		$this->releaseDevices();
+ 		return true;
+ 	}
+ 
+@@ -76,6 +92,7 @@
+ 
+ 	function exitMaintenance() {
+ 		$this->pacemakerConfigurator->configureProperty(HA_Pacemaker_Configuration::$maintenanceModePropertyName, false);
++		$this->reserveDevices();
+ 		return true;
+ 	}
+ 
+@@ -100,11 +117,31 @@
+ 		return $this->hbService->isEnabled() && !$this->hbService->isInMaintenance();
+ 	}
+ 
+-	private function verifyThereIsAnActiveClusterOnTheRemoteNode($remoteNode) {
++	function releaseDevices(HA_Pacemaker_Resources_Repository $pacemakerRepo = null, Storage\Diskpool\Repository $poolRepo = null, HA_Fencing_ScsiDeviceReservator $reservator = null) {
++		$reservator = $reservator ? : new HA_Fencing_ScsiDeviceReservator();
++		$pools = $this->findAllPoolsInHa($pacemakerRepo, $poolRepo);
++		foreach ($pools as $pool) {
++			$reservator->releaseDevicesOnPool($pool);
++		}
++	}
++
++	function reserveDevices(HA_Pacemaker_Resources_Repository $pacemakerRepo = null, Storage\Diskpool\Repository $poolRepo = null, HA_Fencing_ScsiDeviceReservator $reservator = null) {
++		$reservator = $reservator ? : new HA_Fencing_ScsiDeviceReservator();
++		$pools = $this->findAllPoolsInHa($pacemakerRepo, $poolRepo);
++		foreach ($pools as $pool) {
++			$reservator->reserveDevicesOnPool($pool);
++		}
++	}
++
++	private function verifyThereIsAnActiveClusterOnTheRemoteNode($remoteNode, HA_Progress_Overall $progress) {
++		$progress->addOnGoingStep('Sending signals to outer space to see if there is life on the remote node');
+ 		$this->logInfo("Verify if there is an active cluster on the remote node.");
+ 		if ($remoteNode->getServiceState('heartbeat') != 'online') {
+-			(new HA_Exception_CannotConnectToCluster('No active cluster services were found on the specified remote node.'))->_throw();
++			$failureMessage = 'No active cluster services were found on the specified remote node.';
++			$progress->addFailedStep('Joining cluster failed!', $failureMessage);
++			(new HA_Exception_CannotConnectToCluster($failureMessage))->_throw();
+ 		}
++		$progress->addSuccessfullyFinishedStep('Found an active cluster on the remote node');
+ 	}
+ 
+ 	private function setClusterAsShuttingDown() {
+@@ -112,9 +149,27 @@
+ 		File_Utils::touch(Infrastructure_AppConfig::filePath('cluster_shutting_down'));
+ 	}
+ 
+-	private function unsetClusterAsShuttingDown() {
++	private function unsetClusterAsShuttingDown(HA_Progress_Overall $progress = null) {
++		$progress = $progress ? : new HA_Progress_Overall();
++		$progress->addOnGoingStep('Removing the current life of the old node');
+ 		$this->logInfo('Removing old cluster state files');
+ 		File_Utils::rm(Infrastructure_AppConfig::filePath('cluster_shutting_down'));
++		$progress->addSuccessfullyFinishedStep('Removed old cluster state files');
+ 	}
+ 
++	private function enableHeartbeatInterface(HA_Progress_Overall $progress) {
++		$progress->addOnGoingStep('Thunders are reviving heartbeat');
++		$this->hbService->enable();
++		$progress->addSuccessfullyFinishedStep('Heartbeat service is enabled');
++	}
++
++	private function findAllPoolsInHa(HA_Pacemaker_Resources_Repository $pacemakerRepo = null, Storage\Diskpool\Repository $poolRepo = null) {
++		$pacemakerRepo = $pacemakerRepo ? : new HA_Pacemaker_Resources_Repository();
++		$poolRepo = $poolRepo ? : new Storage\Diskpool\Repository();
++		$pools = [];
++		foreach ($pacemakerRepo->findAllVirtualStorages() as $virtualStorage) {
++			$pools[] = $poolRepo->findByName($virtualStorage->getPoolName());
++		}
++		return $pools;
++	}
+-}
+\ No newline at end of file
++}
