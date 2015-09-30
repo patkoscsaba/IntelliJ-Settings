@@ -1,0 +1,238 @@
+Index: WebContent/WEB-INF/templates/struts/elements/ingredients/eidtor/editButton.vm
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- WebContent/WEB-INF/templates/struts/elements/ingredients/eidtor/editButton.vm	(revision )
++++ WebContent/WEB-INF/templates/struts/elements/ingredients/eidtor/editButton.vm	(revision )
+@@ -0,0 +1,4 @@
++<div id="ing_icons" class="editIngredientButton">
++	<button id="ingEditButton" onclick="; return false;">EDIT $icon.icon.admin.data.ingredients.edit.altText(
++		"icon_alt.admin.data.ingredients.edit").href("#").id("ingEditIcon").onClick("")</button>
++</div>
+\ No newline at end of file
+Index: WebContent/WEB-INF/templates/struts/ingredients/ingredient.vm
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- WebContent/WEB-INF/templates/struts/ingredients/ingredient.vm	(date 1443505033000)
++++ WebContent/WEB-INF/templates/struts/ingredients/ingredient.vm	(revision )
+@@ -1,98 +1,108 @@
+-<form name="editIngredientForm" id="editIngredientForm" action="#surl("action=ajax_ingredientEdit" "namespace=/ingredients")" method="post">
++<form name="editIngredientForm" id="editIngredientForm" action="#surl(
++	"action=ajax_ingredientEdit" "namespace=/ingredients")" method="post">
++
+ 	<div id="editIngredient" ingId="${ingredient.id}" ingCatId="${ingredient.category.id}" ingCatKey="${ingredient.category.key}" ingTypeKey="$esc.html(${ingredient.typeKey})" ingUrl="$!{esc.html($!ingredient.url)}">
++
+ 		#if ($canEdit)
+-			<div id="ing_icons" class="editIngredientButton">
+-				<button id="ingEditButton" onclick="; return false;">EDIT $icon.icon.admin.data.ingredients.edit.altText("icon_alt.admin.data.ingredients.edit").href("#").id("ingEditIcon").onClick("")</button>
+-			</div>
++			#parse("/struts/elements/ingredients/editor/editButton.vm")
+ 		#end
++
+ 		<div id="ing_userIconLightbox">
+-		#if ($ingredient.ownerId == $auth.authenticatedUser.id)
++			#if ($ingredient.ownerId == $auth.authenticatedUser.id)
+ 			$icon.icon.feeds.userIngredient.altText("icon_alt.feeds.userIngredient.help")
+ 		#end
+ 		</div>
+-		<h1 id="ing_name"><span>$ingredient.name</span></h1>
+-		<div id="ingredientCategory" class="category${ingredient.category.key.charAt(0)}">
+-			<span id="ing_categoryId"><span>#htmlIngredientCategoryName($ingredient.category)</span></span> / <span id="ing_typeKey"><span>$esc.html($text.get("ingredient_types.name.${ingredient.typeKey}"))</span></span>
+-		</div>
+-		
++
++##		<h1 id="ing_name"><span>$ingredient.name</span></h1>
++##
++##		<div id="ingredientCategory" class="category${ingredient.category.key.charAt(0)}">
++##			<span id="ing_categoryId"><span>#htmlIngredientCategoryName($ingredient.category)</span></span> /
++##			<span id="ing_typeKey"><span>$esc.html($text.get(
++##				"ingredient_types.name.${ingredient.typeKey}"))</span></span>
++##		</div>
++
+ 		<div id="ingredientWrapper">
+ 			<div id="ingredientSidebar">
+ 				<div id="ingredientContainer">
+-					<div id="feedDetails">
+-						<h3>$text.admin.ingredients.view.heading.details</h3>
+-						<label for="ingredient.url">$text.admin.data.ingredients.add_form_label.url</label></th>
+-						<div id="ing_url">
+-							<span>
+-								#if ($ingredient.url.startsWith("http"))
+-									<a href="${esc.nobr($esc.html($ingredient.url))}" target=_blank>${esc.nobr($esc.html($ingredient.url))}</a>
+-								#{elseif} ($ingredient.url.startsWith("www"))
+-									<a href="http://${esc.nobr($esc.html($ingredient.url))}" target=_blank>${esc.nobr($esc.html($ingredient.url))}</a>
+-								#{else}
+-									No product site specified.
+-								#end
+-							</span>
++##					<div id="feedDetails">
++##						<h3>$text.admin.ingredients.view.heading.details</h3>
++##						<label for="ingredient.url">$text.admin.data.ingredients.add_form_label.url</label></th>
++##						<div id="ing_url">
++##							<span>
++##								#if ($ingredient.url.startsWith("http"))
++##									<a href="${esc.nobr($esc.html($ingredient.url))}" target=_blank>${esc.nobr($esc.html($ingredient.url))}</a>
++##								#{elseif} ($ingredient.url.startsWith("www"))
++##									<a href="http://${esc.nobr($esc.html($ingredient.url))}" target=_blank>${esc.nobr($esc.html($ingredient.url))}</a>
++##								#{else}
++##									No product site specified.
++##								#end
++##							</span>
++##						</div>
++##					</div>
+-						</div>
+-					</div>
++				</div>
++			</div>
+-				</div>
+-			</div>
+-			
++
+-			<div id ="nutrientContainer">
+-				<div id="nutrientDosage">
+-					<label for="dosage.amount">$text.admin.ingredients.view.form.label.per</label>
+-					<input
+-						class="dosageInput"
+-						name="ingredient.dosageAmount"
+-						id="ing.dosageAmount"
+-						size="1"
+-						value="1"
+-						validatenumeric="true"
+-						validatenumeric_msg="${esc.html($text.admin.ingredients.view.add_form_error.dosage_numeric)}"
+-					>
+-					<select class="dosageConcentration" name="ingredient.dosageUnit" id="ing.dosageUnit">
+-					#foreach ($unit in $allDoseUnits)
+-						<option value="$unit.abbreviation">#htmlUnitAbbreviation($unit)</option>
+-					#end
+-					</select>
+-					<span>$icon.icon.admin.data.ingredients.refreshConversion.altText("icon_alt.admin.data.ingredients.refreshNutrients").href("#surl('action=ajax_ingredientRefresh' 'namespace=/ingredients')").id("ingRefreshIcon").onClick("")</span>
+-				</div>
++##			<div id="nutrientContainer">
++##				<div id="nutrientDosage">
++##					<label for="dosage.amount">$text.admin.ingredients.view.form.label.per</label>
++##					<input
++##						class="dosageInput"
++##						name="ingredient.dosageAmount"
++##						id="ing.dosageAmount"
++##						size="1"
++##						value="1"
++##						validatenumeric="true"
++##						validatenumeric_msg="${esc.html($text.admin.ingredients.view.add_form_error.dosage_numeric)}"
++##						>
++##					<select class="dosageConcentration" name="ingredient.dosageUnit" id="ing.dosageUnit">
++##						#foreach ($unit in $allDoseUnits)
++##							<option value="$unit.abbreviation">#htmlUnitAbbreviation($unit)</option>
++##						#end
++##					</select>
++					<span>$icon.icon.admin.data.ingredients.refreshConversion.altText(
++						"icon_alt.admin.data.ingredients.refreshNutrients").href(
++						"#surl('action=ajax_ingredientRefresh' 'namespace=/ingredients')").id("ingRefreshIcon").onClick(
++						"")</span>
++##				</div>
+-		
++
+-				<h3>$text.admin.ingredients.view.heading.nutrient, ${ingredient.percentDryMatter}% $text.admin.ingredients.view.form.label.dry_matter</h3>
+-				
+-				<div id="nutrientLegend">
+-			        <label>$text.feeds.info.legend_label</label>
+-			        <span class="data">$text.feeds.info.legend.data</span>
+-			        <span class="zero">$text.feeds.info.legend.zero</span>
+-			        <span class="nodata">$text.feeds.info.legend.nodata</span>
+-			        <div class="clear"></div>
+-				</div>
+-	
+-				<div id="nutrientList">
+-					#foreach ($column in [1..$maxColumns])
+-						#set ($subList = $action.getNutrientSubList($column))
+-						<div class="column col$column">
+-							#foreach ($nutrient in $subList)
+-								#set ($nc = false)
+-								#set ($nc = $ingredient.getNutrientContent($nutrient))
+-								<div class="nutrient #if (!$nc)nodata#elseif ($nc.quantity == 0)zero#{else}data#end #set ($nc = false) #set ($nc = $ingredient.getNutrientContent($nutrient))">
+-									<div class="inner">
+-										<div id="ing_nc_icon_${nutrient.id}" class="icon-select">
+-											<span><img src="${link.contextPath}/images/feeds/nutrient_indicator_#if (!$nc)unknown#elseif ($nc.quantity == 0)none#{else}active#end.png"/></span>
+-										</div>
+-										<div class="name" title="#htmlNutrientName($nutrient)">#htmlNutrientName($nutrient)</div>
+-										<div class="amount" id="ing_nc_${nutrient.id}" #if ($nc.calculatedValue)incalc="true"#end incq="#if ($nc)${nc.quantity}#end" incc="#if ($nc)#htmlUnitAbbreviation($nc.concentration.contentUnit)#end">
+-											<span title="#if ($nc)${nc.quantity} #htmlUnitAbbreviation($nc.concentration.contentUnit)#end">
+-												#if ($nc)${nc.quantity}&nbsp;#end#if ($nc)#htmlUnitAbbreviation($nc.concentration.contentUnit)#end
+-											</span>
+-										</div>
+-									</div>
+-								</div>
+-							#end
+-						</div>
+-					#end
+-					<div class="clear"></div>
+-				</div>
+-			</div>
++##				<h3>$text.admin.ingredients.view.heading.nutrient, ${ingredient.percentDryMatter}% $text.admin.ingredients.view.form.label.dry_matter</h3>
++##
++##				<div id="nutrientLegend">
++##					<label>$text.feeds.info.legend_label</label>
++##					<span class="data">$text.feeds.info.legend.data</span>
++##					<span class="zero">$text.feeds.info.legend.zero</span>
++##					<span class="nodata">$text.feeds.info.legend.nodata</span>
++##
++##					<div class="clear"></div>
++##				</div>
++##
++##				<div id="nutrientList">
++##					#foreach ($column in [1..$maxColumns])
++##						#set ($subList = $action.getNutrientSubList($column))
++##						<div class="column col$column">
++##							#foreach ($nutrient in $subList)
++##								#set ($nc = false)
++##								#set ($nc = $ingredient.getNutrientContent($nutrient))
++##								<div class="nutrient #if (!$nc)nodata#elseif ($nc.quantity == 0)zero#{else}data#end #set ($nc = false) #set ($nc = $ingredient.getNutrientContent($nutrient))">
++##									<div class="inner">
++##										<div id="ing_nc_icon_${nutrient.id}" class="icon-select">
++##											<span><img src="${link.contextPath}/images/feeds/nutrient_indicator_#if (!$nc)unknown#elseif ($nc.quantity == 0)none#{else}active#end.png"/></span>
++##										</div>
++##										<div class="name" title="#htmlNutrientName($nutrient)">#htmlNutrientName($nutrient)</div>
++##										<div class="amount" id="ing_nc_${nutrient.id}" #if ($nc.calculatedValue)incalc="true"#end incq="#if ($nc)${nc.quantity}#end" incc="#if ($nc)#htmlUnitAbbreviation($nc.concentration.contentUnit)#end">
++##											<span title="#if ($nc)${nc.quantity} #htmlUnitAbbreviation($nc.concentration.contentUnit)#end">
++##												#if ($nc)${nc.quantity}&nbsp;#end#if ($nc)#htmlUnitAbbreviation($nc.concentration.contentUnit)#end
++##											</span>
++##										</div>
++##									</div>
++##								</div>
++##							#end
++##						</div>
++##					#end
++##					<div class="clear"></div>
++##				</div>
++##			</div>
+-			
++
+ 			<div class="clear"></div>
+ 		</div>
+ 	</div>
+\ No newline at end of file
+Index: WebContent/WEB-INF/templates/struts/admin/ingredients/ingredient.vm
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- WebContent/WEB-INF/templates/struts/admin/ingredients/ingredient.vm	(date 1443505033000)
++++ WebContent/WEB-INF/templates/struts/admin/ingredients/ingredient.vm	(revision )
+@@ -1,11 +1,14 @@
+ <form name="editIngredientForm" id="editIngredientForm" action="#surl(
+ 	"action=ajax_ingredientEdit" "namespace=/admin/ingredients")" method="post">
++
+ 	<div id="editIngredient" ingId="${ingredient.id}" ingName="${esc.html($ingredient.name)}" ingOil="${ingredient.oil}" ingGrain="${ingredient.grain}" ingCatId="${ingredient.category.id}" ingCatKey="${ingredient.category.key}" ingTypeKey="$esc.html(${ingredient.typeKey})" ingMTKey="$!{ingredient.multipleTypeKey}" ingMVKey="$!{ingredient.multipleValueKey}" ingUrl="$!{esc.html($!ingredient.url)}" ingOwnerId="$!{esc.html($!ingredient.ownerId)}" ingPercentDryMatter="$!{ingredient.percentDryMatter}">
++
+ 		<div id="ing${ingredient.id}_icons" class="editIngredientButton">
+ 			<button id="ing${ingredient.id}_editButton" onclick="; return false;"> EDIT $icon.icon.admin.data.ingredients.edit.altText(
+ 				"icon_alt.admin.data.ingredients.edit").href("#").id("ing${ingredient.id}_editIcon").onClick(
+ 				"")</button>
+ 		</div>
++
+ 		<h1 id="ing${ingredient.id}_name"><span>$ingredient.name</span></h1>
+ 
+ 		<div id="ingredientCategory" class="category${ingredient.category.key.charAt(0)}">
+\ No newline at end of file
