@@ -128,6 +128,20 @@
     </option>
     <option name="lastPath" value="/Volumes/SourceRepos/unistore" />
   </component>
+  <component name="RecentTaskRepositories">
+    <YouTrack shared="false" url="http://syneto.myjetbrains.com/youtrack">
+      <commitMessageFormat>{id}</commitMessageFormat>
+      <option name="defaultSearch" value="" />
+      <password>dfccdfdfdfc4dfcddfc2dfcfdfdedfdedfc3df84df9bdf98</password>
+      <option name="loginAnonymously" value="false" />
+      <option name="preferredCloseTaskState" />
+      <option name="preferredOpenTaskState" />
+      <option name="shouldFormatCommitMessage" value="true" />
+      <option name="useHttpAuthentication" value="false" />
+      <option name="useProxy" value="false" />
+      <username>csaba.patkos</username>
+    </YouTrack>
+  </component>
   <component name="RefactoringSettings">
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="false" />
     <option name="RENAME_SEARCH_FOR_TEXT_FOR_CLASS" value="false" />
@@ -146,6 +160,9 @@
         <option value="TestRunner" />
       </set>
     </option>
+  </component>
+  <component name="TaskSettings">
+    <option name="ALWAYS_DISPLAY_COMBO" value="true" />
   </component>
   <component name="TeamCityHistory">
     <option name="HISTORY" value="http://vmbox-desk:8111&amp;^%$#@patkoscsaba@#$%^&amp;http://buildserver&amp;^%$#@csaba.patkos" />
