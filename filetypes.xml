@@ -4,11 +4,11 @@
     <extensionMap>
       <mapping ext="ctp" type="PHP" />
       <mapping pattern="series" type="PLAIN_TEXT" />
-      <mapping pattern="Makefile" type="PLAIN_TEXT" />
       <mapping pattern="ssh_config" type="PLAIN_TEXT" />
+      <mapping pattern="Makefile" type="PLAIN_TEXT" />
       <mapping ext="mog" type="PLAIN_TEXT" />
-      <mapping ext="pkg" type="PLAIN_TEXT" />
       <mapping ext="drift" type="PLAIN_TEXT" />
+      <mapping ext="pkg" type="PLAIN_TEXT" />
       <mapping ext="m4" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
