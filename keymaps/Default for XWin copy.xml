@@ -109,7 +109,7 @@
   <action id="FileChooser.GotoDesktop" />
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
-    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
@@ -121,7 +121,6 @@
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
-  <action id="GotoLine" />
   <action id="GotoNextError" />
   <action id="GotoRow" />
   <action id="GotoSuperMethod" />
