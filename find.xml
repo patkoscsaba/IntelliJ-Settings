@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'FeedXLWebapp'" />
-    <option name="defaultScopeName" value="Project 'FeedXLWebapp'" />
-    <option name="SEARCH_SCOPE" value="Project 'FeedXLWebapp'" />
+    <option name="customScope" value="Directory '/Volumes/SourceRepos/unistore/Lego'" />
+    <option name="defaultScopeName" value="Directory '/Volumes/SourceRepos/unistore/Lego'" />
+    <option name="SEARCH_SCOPE" value="Directory '/Volumes/SourceRepos/unistore/Lego'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
