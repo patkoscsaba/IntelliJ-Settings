@@ -1,0 +1,36 @@
+Index: Lego/Test/SolarisContract/testRunner.sh
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Lego/Test/SolarisContract/testRunner.sh	(revision 7794+:fe0490497841+)
++++ Lego/Test/SolarisContract/testRunner.sh	(revision 7794+:fe0490497841+)
+@@ -0,0 +1,9 @@
++#!/usr/bin/env bash
++
++workingDir=`dirname $(readlink -f $0)`
++
++pushd $workingDir
++
++/usr/bin/php ../../../vendor/bin/phpunit --bootstrap=../BootStrap.php --configuration=../phpunit.xml . 2>&1
++
++popd
+Index: Lego/Test/SolarisContract/remoteRunner.sh
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Lego/Test/SolarisContract/remoteRunner.sh	(revision 7794+:fe0490497841+)
++++ Lego/Test/SolarisContract/remoteRunner.sh	(revision 7794+:fe0490497841+)
+@@ -0,0 +1,11 @@
++#!/usr/bin/env bash
++
++sutstore=admin@sutstore.dev.syneto.net
++
++# Copy this script to the CI server and adjust "sutstore" to point to the tested machine
++ssh $sutstore "/usr/sbin/software-update --install-foreground"
++
++# Let asinchronously restarted services to start up again
++sleep 10
++
++ssh $sutstore "/code/src/storage-os-core/Lego/Test/SolarisContract/testRunner.sh"
