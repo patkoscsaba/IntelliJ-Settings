@@ -268,6 +268,7 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift alt l" />
     <keyboard-shortcut first-keystroke="shift alt f" />
+    <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />

@@ -589,6 +589,26 @@
         <section>
           <rule>
             <match>
+              <AND>
+                <METHOD>true</METHOD>
+                <NAME>setUp</NAME>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <METHOD>true</METHOD>
+                <NAME>tearDown</NAME>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
               <METHOD />
             </match>
           </rule>
