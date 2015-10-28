@@ -1,0 +1,12 @@
+<templateSet group="JavaScript">
+  <template name="f" value="$NAME$: function ($PARAMS$) {&#10;&#9;$END$&#10;},&#10;&#10;" description="Prototype Function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;NAME&quot;" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
