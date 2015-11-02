@@ -1,0 +1,39 @@
+Index: GitHooks/youtrack.hook
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- GitHooks/youtrack.hook	(revision )
++++ GitHooks/youtrack.hook	(revision )
+@@ -0,0 +1,17 @@
++#!/usr/bin/env bash
++
++export LANG=en_US.UTF-8
++
++hglog=`$HG log -r $HG_NODE | sed -e 's/\(changeset\:.*:\)\(.*$\)/\1\[http\:\/\/upsource\.dev\.syneto\.net\/storage\-os\-core\/revision\/\2\ \2\]/'`
++
++issueId=`hg log -r $HG_NODE | grep 'STORAGE' | sed -e 's/.*\(STORAGE\-[0-9]*\).*/\1/'`
++
++if [ "$issueId" == "" ]; then
++	echo "No issue ID found in commit message"
++ 	exit 0
++fi
++
++curl --data "login=mercurial&password=Funghetti.12" --cookie-jar /tmp/youtrack.auth.cookie  http://syneto.myjetbrains.com/youtrack/rest/user/login 1>/dev/null
++
++youtrackUrl="http://syneto.myjetbrains.com/youtrack/rest/issue/${issueId}/execute"
++curl --cookie /tmp/youtrack.auth.cookie --data "comment=${hglog}" $youtrackUrl
+Index: GitHooks/slack.hook
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- GitHooks/slack.hook	(revision 74220dda244fde5650d2d589aeb0f00dfd32eb47)
++++ GitHooks/slack.hook	(revision )
+@@ -313,5 +313,3 @@
+   notify $*
+   RET=$?
+ done
+-
+-exit $RET
+\ No newline at end of file
