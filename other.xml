@@ -129,8 +129,8 @@
     <option name="lastPath" value="/Volumes/SourceRepos/unistore" />
   </component>
   <component name="RecentTaskRepositories">
-    <YouTrack shared="false" url="http://syneto.myjetbrains.com/youtrack">
-      <commitMessageFormat>{id}</commitMessageFormat>
+    <YouTrack shared="true" url="http://syneto.myjetbrains.com/youtrack">
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
       <option name="defaultSearch" value="" />
       <password>dfccdfdfdfc4dfcddfc2dfcfdfdedfdedfc3df84df9bdf98</password>
       <option name="loginAnonymously" value="false" />
