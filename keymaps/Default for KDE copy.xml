@@ -320,6 +320,7 @@
   <action id="TypeHierarchy" />
   <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.ShowMessageHistory" />
+  <action id="Vcs.UpdateProject" />
   <action id="ViewSource" />
   <action id="WebOpenInAction" />
   <action id="WelcomeScreen.ReopenRecent">
