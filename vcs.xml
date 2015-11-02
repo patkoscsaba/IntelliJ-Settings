@@ -18,8 +18,12 @@
           <option name="url" value="https://github.com/xprime/FeedXLWebappTests.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="ssh://admin@storage//tank/source-repository/storageos3/storage-os-core/" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Personal/Work/FeedXL" />
+    <option name="cloneParentDir" value="/Volumes/SourceRepos" />
   </component>
 </application>
